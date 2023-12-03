@@ -4,10 +4,11 @@ import path from 'path';
 
 const routes: Routes = [
   // Lazyloading
-  {path: '',
+  {path: 'auth',
 loadChildren:()=>import('./modules/auth/auth.module').then( m => m.AuthModule)
 
 }
+
 ];
 
 @NgModule({
