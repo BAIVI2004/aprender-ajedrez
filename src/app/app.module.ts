@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 
 
+
 // Definición del módulo principal de la aplicación usando el decorador NgModule
 @NgModule({
     // Declaración de los componentes, directivas y pipes que pertenecen a este módulo
